@@ -49,7 +49,6 @@ elif nilai >= 80:
     print("Grade: B+")
 else:
     print("Grade: C")
-
 print("---------------")
 
 number = 6
@@ -58,7 +57,6 @@ if number > 5:
     print(number * number)
 print('Next lines of code')
 
-print("---------------")
 
 # 2. If – else statement
 password = input('Enter password ')
@@ -67,7 +65,6 @@ if password == "PYnative@#29":
 else:
     print("Incorrect Password")
 
-print("---------------")
 #Syntax of the if-elif-else statement:
 def user_check(choice):
     if choice == 1:
@@ -84,7 +81,6 @@ user_check(3)
 user_check(4)
 
 
-print("---------------")
 # 3. Menggunakan Input dari Pengguna
 x = int(input("Masukkan nilai x: "))
 if x > 5:
@@ -95,7 +91,6 @@ else:
     print("x lebih kecil dari 5")
 
 
-print("---------------")
 # 4. Menggunakan if Bersarang (Nested If)
 x = int(input("Masukkan nilai x: "))
 if x > 0:
@@ -109,7 +104,6 @@ elif x == 0:
 else:
     print("x adalah bilangan negatif")
 
-print("---------------")
 # 5. Menggunakan Operator Logika dalam if
 x = int(input("Masukkan nilai x: "))
 if x > 0 and x % 2 == 0:
@@ -119,21 +113,17 @@ elif x > 0 and x % 2 != 0:
 else:
     print("x bukan bilangan positif")
 
-
-print("---------------")
 # 6. Menggunakan Ternary Operator (if dalam satu baris)  
 x = int(input("Masukkan nilai x: "))
 status = "Positif" if x > 0 else "Negatif atau Nol"
 print(f"x adalah bilangan {status}")
 
-print("---------------")
 # 7. Variabel yang Bisa Digunakan dalam if, elif
 #Boolean (bool)
 is_active = True
 if is_active:
     print("Akun aktif")
 
-print("---------------")
 #Angka (int, float) (Seperti contoh di atas..)
 nilai = 75
 if nilai >= 60:
@@ -141,13 +131,11 @@ if nilai >= 60:
 elif nilai < 60:
     print("Tidak Lulus")
 
-print("---------------")
 #String (str)
 nama = "Andi"
 if nama:
     print("Nama telah diisi")
 
-print("---------------")
 #List, Tuple, Set, Dictionary (list, tuple, set, dict)
 data = []
 if data:
@@ -155,7 +143,6 @@ if data:
 else:
     print("List kosong")
 
-print("---------------")
 #NoneType (None)
 user = None
 if user is None:
